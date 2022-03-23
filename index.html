@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd13d0f6b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div class="container">
+         <div class="navhead">
+             <p>We're open and available for takeaway & delivery. <span><a href="">Order Now</a></span></p>
+         </div>
+         <div class="navlogo">
+             <img src="images/logo.png" alt="logo">
+         </div>
+         <div class="navmenu" id="myTopnav">
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">Order</a></li>
+                <li><a href="">Company</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a class="cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </ul>
+         </div>
+         <div class="content">
+            <img src="images/food-1.png" alt="food-1">
+        </div>
+         <div class="menu">
+             <h1>Beautiful food & takeaway, <span>delivered</span> to your door.</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ex officiis sapiente. Fugiat, ipsam aliquam!Lorem ipsum dolor sit amet.</p>
+             <a href="#"><i class="fa-solid fa-star"></i> Trustpilot</a>
+             <p class="star-cont"><span class="rating">4.8 out of 5</span> based on 2000+ reviews</p>
+             <button class="order-place menu-order">Place an Order</button>
+         </div>
+         <div class="content content-1">
+            <img src="images/food-2.png" alt="food-2">
+         </div>
+         <div class="menu menu-1">
+            <h1>The home of fresh products</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+            <button class="order-place menu-order-1">Learn about Us</button>
+         </div>
+         <div class="menu-2">
+            <h1>How it works.</h1>
+            <div class="group-menu">
+            <div class="m-1">
+                <img src="images/m-1.png" alt="menu-1">
+                <h1 class="m-1-title">Adapt your menu items</h1>
+                <p class="m-1-pera">Easily adapt your menu using the webflow CMS and allow customers to browse your items.</p>
+            </div>
+            <div class="m-1">
+                <img src="images/m-2.png" alt="menu-2">
+                <h1 class="m-1-title">Adapt your menu items</h1>
+                <p class="m-1-pera">Easily adapt your menu using the webflow CMS and allow customers to browse your items.</p>
+            </div>
+            <div class="m-1">
+                <img src="images/m-3.png" alt="menu-3">
+                <h1 class="m-1-title">Adapt your menu items</h1>
+                <p class="m-1-pera">Easily adapt your menu using the webflow CMS and allow customers to browse your items.</p>
+            </div>
+            </div>
+         </div>
+         <div class="menu-3">
+            <h1>Browse our menu</h1>
+            <div class="group-menu">
+                <p class="m-3-pera">Use our menu to place an order online, or phone our store to place a pickup order. Fast and fresh food.</p>
+                <p></p>
+                <div class="group-btn">
+                    <button class="order-place ordered">Burger</button>
+                    <button class="order-place">Sides</button>
+                    <button class="order-place">Drink</button>
+                </div>
+         </div>
+         <div class="menu-4">
+             <div class="sub-item">
+                <div class="item-1">
+                    <div class="s-item-1">
+                        <img src="images/b1.png" alt="burger-dreames">
+                    </div>
+                    <div class="s-item-2">
+                        <h1>Burger Dreames</h1>
+                        <p class="burger-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="price">$ 9.20 USD</p>
+                        <input class="qty" type="number" id="number" name="number">
+                        <input class="submit" type="submit" id="submit" value="Add To Cart"> 
+                    </div>
+                </div>
+                <div class="item-1 item-2">
+                    <div class="s-item-1">
+                        <img src="images/b2.png" alt="burger-dreames">
+                    </div>
+                    <div class="s-item-2">
+                        <h1>Burger Waldo</h1>
+                        <p class="burger-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="price">$ 10.00 USD</p>
+                        <input class="qty" type="number" id="number" name="number">
+                        <input class="submit" type="submit" id="submit" value="Add To Cart"> 
+                    </div>
+                </div>
+                <div class="item-1"> 
+                    <div class="s-item-1">
+                        <img src="images/c.png" alt="burger-dreames">
+                    </div>
+                    <div class="s-item-2">
+                        <h1>Burger Cali</h1>
+                        <p class="burger-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="price">$ 8.00 USD</p>
+                        <input class="qty" type="number" id="number" name="number">
+                        <input class="submit" type="submit" id="submit" value="Add To Cart"> 
+                    </div>
+                </div>
+                <div class="item-1">
+                    <div class="s-item-1">
+                        <img src="images/d.png" alt="burger-dreames">
+                    </div>
+                    <div class="s-item-2">
+                        <h1>Burger Bacon Buddy</h1>
+                        <p class="burger-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="price">$ 9.90 USD</p>
+                        <input class="qty" type="number" id="number" name="number">
+                        <input class="submit" type="submit" id="submit" value="Add To Cart"> 
+                    </div>
+                </div>
+                <div class="item-1">
+                    <div class="s-item-1">
+                        <img src="images/b1.png" alt="burger-dreames">
+                    </div>
+                    <div class="s-item-2">
+                        <h1>Burger Spicy</h1>
+                        <p class="burger-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="price">$ 11.20 USD</p>
+                        <input class="qty" type="number" id="number" name="number">
+                        <input class="submit" type="submit" id="submit" value="Add To Cart"> 
+                    </div>
+                </div>
+                <div class="item-1">
+                    <div class="s-item-1">
+                        <img src="images/b2.png" alt="burger-dreames">
+                    </div>
+                    <div class="s-item-2">
+                        <h1>Burger Classic</h1>
+                        <p class="burger-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="price">$ 7.50 USD</p>
+                        <input class="qty" type="number" id="number" name="number">
+                        <input class="submit" type="submit" id="submit" value="Add To Cart"> 
+                    </div>
+                </div>
+             </div>
+             <div class="full-menu">
+                <a href="#">See Full Menu</a>
+             </div>
+             <div class="about-us">
+                 <div class="col">
+                    <div class="col-1">
+                        <img src="images/logo.png" alt="logo">
+                        <h1>Takeaway & Delivery template
+                        for small - medium businesses.</h1>
+                    </div>
+                    <div class="col-2">
+                        
+                    </div>
+                    <div class="col-3">
+                        <h2>COMPANY</h2>
+                        <a href="">Home</a>
+                        <a href="">Order</a>
+                        <a href="">FAQ</a>
+                        <a href="">Contact</a>
+                    </div>
+                    <div class="col-3">
+                        <h2>TEMPLATE</h2>
+                        <a href="">Style Guide</a>
+                        <a href="">Style Guide</a>
+                        <a href="">Changelog</a>
+                        <a href="">Licence</a>
+                    </div>
+                    <div class="col-3 col-4">
+                        <h2>FLOWBASE</h2>
+                        <a href="">More Cloneables</a>
+                    </div>
+                 </div>
+             </div>
+         </div>
+         <div class="footer">
+             <div class="copy-right">Developed by &copy; Sourabh</div>
+             <div class="social">
+                <a class="social-icons" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="social-icons" href=""><i class="fa-brands fa-twitter"></i></a>
+                <a class="social-icons" href=""><i class="fa-brands fa-instagram"></i></i></a>
+                <a class="social-icons" href=""><i class="fa-brands fa-whatsapp"></i></a>
+             </div>
+         </div>
+     </div>
+     
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "navmenu") {
+            x.className += " responsive";
+          } else {
+            x.className = "navmenu";
+          }
+        }
+    </script>
+
+</body>
+</html>
